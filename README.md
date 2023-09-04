@@ -18,3 +18,15 @@
 ```python
 python filename.py
 ```
+
+
+## Coding
+
+คำสั่งรันใน cmd/Terminal
+```python
+python filename.py
+```
+คำสั่งลง Module
+```python
+pip install ModuleName
+```
