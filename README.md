@@ -15,9 +15,6 @@
 จะใช ้IDEL ของ python ก็ได้แต่มีก็สบายกว่า
 - Window : VsCode ( https://code.visualstudio.com/ )
 - Website Editor : Replit ( https://replit.com/ )
-```python
-python filename.py
-```
 
 
 ## Coding
