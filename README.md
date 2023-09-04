@@ -7,7 +7,7 @@
 - ลง python version ล่าสุดที (  https://www.python.org/ )
 ![alt text](https://raw.githubusercontent.com/thelastcat15/Com-Pro/main/src/Screenshot%202023-09-04%20233247.png)
 - กดรันโปรแกรมขึ้นมา
-- !! อันนี้สำคัญ ต้องติ้ก Add Python 3.x to PATH  !!     (ต้องใช้เวลาเราลง Module)
+- !! อันนี้สำคัญ ต้องติ้ก Add Python 3.x to PATH  !!
 ![alt text](https://raw.githubusercontent.com/thelastcat15/Com-Pro/main/src/Screenshot%202023-09-04%20233.png)
 
 
