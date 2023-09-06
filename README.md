@@ -1,6 +1,6 @@
 # Computer Programming  (จารย์ เฉียบ)
 
-เฉลยโค้ดการบ้านที่ grader ตรวจ
+เฉลยโค้ดการบ้าน
 
 
 ## Setup
