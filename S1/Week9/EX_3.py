@@ -1,11 +1,10 @@
-from numpy import array, median
-
 x = int(input())
 
 data = []
 for _ in range(x) :
-    data.append(int(input()))
-num_data = array(data)
+    temp = int(input())
+    data.append(temp)
 
-print(num_data.mean())
-print(median(num_data))
+print(sum(data)/x) # print(sum(data) / x)
+data.sort()
+print(data[(x-1)//2]) # (x-1)//2] middle index

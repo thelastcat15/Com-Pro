@@ -2,8 +2,9 @@ x = int(input())
 
 data = []
 for _ in range(x) :
-    data.append(input())
+    data.append(int(input()))
 
-print(min(data))
+
 print(max(data))
+print(min(data))
 print(sum(data))

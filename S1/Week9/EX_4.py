@@ -1,9 +1,10 @@
 x = int(input())
 
+data = []
 for _ in range(x) :
-    x.append(int(input()))
+    data.append(int(input()))
 
-if int(input()) in x :
+if int(input()) in data :
     print("MEET")
 else :
     print("MISS")
