@@ -18,7 +18,7 @@ for i in range(5):
     Temp_Var = DoubleVar()
     Temp_Var.set("")
     Label(f, text="คะแนนนักศึกษาคนที่ "+str(i+1)).place(x=10,y=10+dis_y)
-    Entry(f, textvariable=Temp_Var, ).place(x=120,y=10+dis_y)
+    Entry(f, textvariable=Temp_Var).place(x=120,y=10+dis_y)
     dis_y += 21
     data.append(Temp_Var)
 
