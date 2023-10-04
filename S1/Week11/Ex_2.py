@@ -25,7 +25,6 @@ Result_Var = DoubleVar()
 Result_Var.set("")
 Label(f, text="ค่าใช้จ่าย").place(x=10,y=31)
 Label(f, textvariable=Result_Var).place(x=120,y=31)
-Button(f, text="Calculate", command=cal).place(relx=0.5,y=229,anchor=CENTER)
-
+Button(f, width=10, text="Calculate", command=cal).place(x=5,y=200)
 
 f.mainloop()

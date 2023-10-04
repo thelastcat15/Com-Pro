@@ -27,7 +27,7 @@ Label(f, text="คะแนนเฉลี่ย / คะแนนมากส�
 Result_Var = StringVar()
 Result_Var.set("")
 Label(f, textvariable=Result_Var).place(relx=0.5,y=146,anchor=CENTER)
-Button(f, text="Calculate", command=cal).place(relx=0.5,y=229,anchor=CENTER)
+Button(f, width=10, text="Calculate", command=cal).place(x=5,y=200)
 
 
 f.mainloop()
