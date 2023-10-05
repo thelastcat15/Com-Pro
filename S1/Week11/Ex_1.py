@@ -24,8 +24,8 @@ for i in range(5):
 Label(f, text="คะแนนเฉลี่ย / คะแนนมากสุด / คะแนนน้อยสุด").place(relx=0.5, y=125, anchor=CENTER)
 Result_Var = StringVar()
 Result_Var.set()
-Label(f, textvariable=Result_Var).place(relx=0.5,y=146,anchor=CENTER)
-Button(f, width=10, text="Calculate", command=cal).place(x=5,y=200)
+Label(f, textvariable=Result_Var).place(relx=0.5, y=146, anchor=CENTER)
+Button(f, width=10, text="Calculate", command=cal).place(x=5, y=200)
 
 
 f.mainloop()
