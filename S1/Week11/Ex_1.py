@@ -13,17 +13,15 @@ def cal():
     Result_Var.set((avg,"/",_max,"/",_min))
 
 data = []
-dis_y = 0
 for i in range(5):
     Temp_Var = DoubleVar()
     Temp_Var.set()
-    Label(f, text="คะแนนนักศึกษาคนที่ "+str(i+1)).place(x=10,y=10+dis_y)
-    Entry(f, textvariable=Temp_Var).place(x=120,y=10+dis_y)
-    dis_y += 21
+    Label(f, text="คะแนนนักศึกษาคนที่ "+str(i+1)).place(x=10, y=10+(21*i))
+    Entry(f, textvariable=Temp_Var).place(x=120, y=10+(21*i))
     data.append(Temp_Var)
 
 
-Label(f, text="คะแนนเฉลี่ย / คะแนนมากสุด / คะแนนน้อยสุด").place(relx=0.5,y=125,anchor=CENTER)
+Label(f, text="คะแนนเฉลี่ย / คะแนนมากสุด / คะแนนน้อยสุด").place(relx=0.5, y=125, anchor=CENTER)
 Result_Var = StringVar()
 Result_Var.set()
 Label(f, textvariable=Result_Var).place(relx=0.5,y=146,anchor=CENTER)
