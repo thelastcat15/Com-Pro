@@ -16,7 +16,7 @@ data = []
 dis_y = 0
 for i in range(5):
     Temp_Var = DoubleVar()
-    Temp_Var.set("")
+    Temp_Var.set()
     Label(f, text="คะแนนนักศึกษาคนที่ "+str(i+1)).place(x=10,y=10+dis_y)
     Entry(f, textvariable=Temp_Var).place(x=120,y=10+dis_y)
     dis_y += 21
@@ -25,7 +25,7 @@ for i in range(5):
 
 Label(f, text="คะแนนเฉลี่ย / คะแนนมากสุด / คะแนนน้อยสุด").place(relx=0.5,y=125,anchor=CENTER)
 Result_Var = StringVar()
-Result_Var.set("")
+Result_Var.set()
 Label(f, textvariable=Result_Var).place(relx=0.5,y=146,anchor=CENTER)
 Button(f, width=10, text="Calculate", command=cal).place(x=5,y=200)
 
