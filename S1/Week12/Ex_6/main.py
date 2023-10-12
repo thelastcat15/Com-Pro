@@ -15,8 +15,11 @@ try :
 
     data_list = list(reader(data))
     for row in data_list :
+        txt = " ".join(row)
+        print(txt)
+        
         writer_csv.writerow(row)
-        f_txt.write(",".join(row)+"\n")
+        f_txt.write(txt+"\n")
 
     data.close()
     f_txt.close()

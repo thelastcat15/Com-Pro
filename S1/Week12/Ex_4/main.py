@@ -26,4 +26,4 @@ try :
     f_txt.close()
     f_csv.close()
 except :
-    print("File not found")
+    print("Error")

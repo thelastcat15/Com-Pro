@@ -12,11 +12,19 @@ try :
     f_csv = open("b.csv",'w',encoding='utf-8')
 
     writer_csv = writer(f_csv, lineterminator="\n")
+    
+    data_list = list(
+        map(
+            lambda temp: int(temp[0]),
+            list(reader(data))
+        )
+    )
+    print(data_list)
 
-    data_list = list(reader(data))
-    for row in data_list :
-        writer_csv.writerow(row)
-        f_txt.write(",".join(row)+"\n")
+    avg = str( sum(data_list) / len(data_list) )
+    
+    writer_csv.writerow([avg])
+    f_txt.write(avg)
 
     data.close()
     f_txt.close()

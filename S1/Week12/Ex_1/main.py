@@ -11,4 +11,4 @@ try :
     with open("b.csv",'w',encoding='utf-8') as f:
         f.write("15")
 except :
-    print("File not found")
+    print("Error")
